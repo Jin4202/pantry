@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pantry",
+    "slug": "pantry-mobile",
+    "scheme": "pantry",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/food-icon.png",
+    "splash": {
+      "image": "./assets/food-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.example.pantrymobile",
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/food-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/food-icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
