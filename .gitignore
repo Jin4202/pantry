@@ -17,6 +17,9 @@ web-build/
 .env
 .env.local
 
+# Generated files
+public/firebase-messaging-sw.js
+
 # OS / Editor junk
 .DS_Store
 Thumbs.db
